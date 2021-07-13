@@ -22,9 +22,8 @@ def find_entities(text, list_of_entities):
     #convert list of entities to single regex query
     query = '(?:% s)' % '|'.join(list_of_entities)
     return re.findall(query, text)
-    
 
-def get_NER_network(snapshot, entity_list):
+def get_NER_network(snapshot, entity_list, full_df):
 
     '''
     get co-occurence network of listed entities in a dataframe of instagram posts
@@ -34,7 +33,7 @@ def get_NER_network(snapshot, entity_list):
     G = nx.MultiGraph()
     G.add_nodes_from(entity_list)
 
-    filename = str(snapshot['quarter'].iloc[0])
+    filename = str(quarterly_df['quarter'].iloc[0])
     print('getting network for: ' + filename)
 
     weight = 1.0 #default weight = 1
@@ -50,6 +49,13 @@ def get_NER_network(snapshot, entity_list):
             weighted_edges.append((tuple(edge_list)))
 
         G.add_weighted_edges_from(weighted_edges) #add weighted edges
+
+    for row in combined_df.iterrows():
+        try:
+            G.nodes[row[1]['Entities']]['type'] = row[1]['type']
+            G.nodes[row[1]['Entities']]['category'] = row[1]['Categories']
+        except KeyError:
+            print(f"No node named {row[1]['Entities']} found, skipping...")
         
     nx.write_gexf(G, filename + '_PERSONS_weighted.gexf')
 
@@ -62,9 +68,26 @@ con.close()
 posts_df['timestamp'] = pd.to_datetime(posts_df['timestamp'], unit='s')
 
 #define entity list
-entity_list = pd.read_excel('persons_cleaned_school.xlsx')['Person']
+entity_df1 = pd.read_csv("Instagram_NER - ORGANIZATIONS_CLEAN.csv")[['Organization', 'Categories']]
+entity_list1 = entity_df1['Organization']
+entity_list1 = [entity.lower().strip() for entity in entity_list1]
+entity_list1 = list(dict.fromkeys(entity_list1)) 
+
+entity_df = pd.read_csv("Instagram_NER - PERSONS_CLEAN.csv")[['Person', 'Categories']]
+entity_list = entity_df["Person"]
 entity_list = [entity.lower().strip() for entity in entity_list]
 entity_list = list(dict.fromkeys(entity_list)) 
+
+entity_list_all = list(dict.fromkeys(entity_list + entity_list1))
+
+# Build combined dataframe: Rename 'Organization' and 'Person' columns to 'Entities', add new column 'type' to
+# retain the information, then combine dataframes
+entity_df1.rename({'Organization': 'Entities'}, axis=1, inplace=True)
+entity_df1['type'] = 'organizaion'
+entity_df.rename({'Person': 'Entities'}, axis=1, inplace=True)
+entity_df['type'] = 'person'
+combined_df = pd.concat([entity_df1, entity_df])
+combined_df['Entities'] = combined_df['Entities'].str.lower()
 
 #look only at data for 2020, identify quarters
 posts_df = posts_df[posts_df['timestamp'].dt.year == 2020]
@@ -72,6 +95,4 @@ posts_df['quarter'] = pd.PeriodIndex(posts_df.timestamp, freq='Q')
 
 #group the data by quarter, get network per quarter
 for name, group in posts_df.groupby('quarter'):
-    get_NER_network(group, entity_list)
-    
-
+    get_NER_network(group, entity_list, combined_df)

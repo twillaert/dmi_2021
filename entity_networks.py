@@ -1,6 +1,7 @@
 '''
 Code for the paper on narrative convergence in instagram conspiracies
 Co-occurences of named entities
+Tom Willaert, VUB AI LAB / DMI summerschool 2021
 '''
 
 import sqlite3

@@ -1,0 +1,785 @@
+,Entities,Categories,type
+0,nasa,Government and administration,organizaion
+1,un,Government and administration,organizaion
+2,cnn,Media and Journalism,organizaion
+3,Google,Platforms and tech companies,organizaion
+4,Microsoft,Platforms and tech companies,organizaion
+5,Facebook,Platforms and tech companies,organizaion
+6,Senate,Government and administration,organizaion
+7,Amazon,Platforms and tech companies,organizaion
+8,Apple,Platforms and tech companies,organizaion
+9,WhatsApp,Platforms and tech companies,organizaion
+10,Big Pharma,Pharma,organizaion
+11,mit,Research and education,organizaion
+12,Pentagon,Government and administration,organizaion
+13,Johnson & Johnson,Pharma,organizaion
+14,the White House,Government and administration,organizaion
+15,cia,Government and administration,organizaion
+16,Fox News,Media and Journalism,organizaion
+17,Rockefeller,Finance,organizaion
+18,Gilead Sciences,Pharma,organizaion
+19,Merck & Co.,Pharma,organizaion
+20,Melinda Gates Foundation,NGOs and charity,organizaion
+21,White House,Government and administration,organizaion
+22,Google TV,Platforms and tech companies,organizaion
+23,Amazon TV,Platforms and tech companies,organizaion
+24,Chromecast TV,Platforms and tech companies,organizaion
+25,Harvard,Research and education,organizaion
+26,the World Health Organization,Government and administration,organizaion
+27,New World Order,Conspiracy theory,organizaion
+28,The League of Liberty,Political organization,organizaion
+29,Reuters,Media and Journalism,organizaion
+30,Planned Parenthood,NGOs and charity,organizaion
+31,Guardian,Media and Journalism,organizaion
+32,Plexus,Business,organizaion
+33,the United Nations,Government and administration,organizaion
+34,cbs,Media and Journalism,organizaion
+35,the Gates Foundation,NGOs and charity,organizaion
+36,Parliament,Government and administration,organizaion
+37,fda,Government and administration,organizaion
+38,Fed,Business,organizaion
+39,Rockefellers,Business,organizaion
+40,The New World Order,Conspiracy theory,organizaion
+41,pentagon,Government and administration,organizaion
+42,gop,Political organization,organizaion
+43,fed,Government and administration,organizaion
+44,The New York Times,Media and Journalism,organizaion
+45,United Nations,Government and administration,organizaion
+46,Merck,Pharma,organizaion
+47,the Federal Reserve,Government and administration,organizaion
+48,Secret Service,Government and administration,organizaion
+49,Supreme Court,Law and law enforcement,organizaion
+50,the Centers for Disease Control and Prevention,Government and administration,organizaion
+51,Navy,Government and administration,organizaion
+52,Times,Media and Journalism,organizaion
+53,Nasa,Government and administration,organizaion
+54,Fox,Media and Journalism,organizaion
+55,Young Living,Business,organizaion
+56,Bloomberg,Media and Journalism,organizaion
+57,the Washington Post,Media and Journalism,organizaion
+58,Yale,Research and education,organizaion
+59,Gavi,Pharma,organizaion
+60,The White House,Government and administration,organizaion
+61,the Catholic Church,Religion,organizaion
+62,Defense,Government and administration,organizaion
+63,CBS News,Media and Journalism,organizaion
+64,World Health Organization,Government and administration,organizaion
+65,Project Blue Beam,Conspiracy theory,organizaion
+66,Stanford,Research and education,organizaion
+67,the World Economic Forum,Business,organizaion
+68,Kraft,Business,organizaion
+69,ABC News,Media and Journalism,organizaion
+70,NBC News,Media and Journalism,organizaion
+71,New York Times,Media and Journalism,organizaion
+72,The World Health Organization,Government and administration,organizaion
+73,the State Department,Government and administration,organizaion
+74,IFSP - Intergalactic Federation of Sovereign Planets,Government and administration,organizaion
+75,The Washington Post,Media and Journalism,organizaion
+76,Court,Law and law enforcement,organizaion
+77,Welt,Media and Journalism,organizaion
+78,Mossad,Government and administration,organizaion
+79,Costco,Business,organizaion
+80,National Guard / Reserves,Government and administration,organizaion
+81,the Clinton Foundation,Media and Journalism,organizaion
+82,Visa,Business,organizaion
+83,CBN News,Media and Journalism,organizaion
+84,Air Force,Government and administration,organizaion
+85,the Associated Press,Media and Journalism,organizaion
+86,Newsweek,Media and Journalism,organizaion
+87,National Guard,Government and administration,organizaion
+88,Intel,Platforms and tech companies,organizaion
+89,Party,Political organization,organizaion
+90,the National Institute of Allergy and Infectious Diseases,Government and administration,organizaion
+91,USA Today,Media and Journalism,organizaion
+92,Rockefeller Foundation,NGOs and charity,organizaion
+93,microsoft,Platforms and tech companies,organizaion
+94,McDonald's,Business,organizaion
+95,the World Bank,Business,organizaion
+96,Business Insider,Media and Journalism,organizaion
+97,the National Guard,Government and administration,organizaion
+98,Health and Human Services,Government and administration,organizaion
+99,DoD,Government and administration,organizaion
+100,AG Barr,Business,organizaion
+101,Washington Post,Media and Journalism,organizaion
+102,Kremlin,Government and administration,organizaion
+103,Mastercard,Business,organizaion
+104,Starbucks,Business,organizaion
+105,The United Nations,Government and administration,organizaion
+106,Stanford University,Research and education,organizaion
+107,Sky News,Media and Journalism,organizaion
+108,Nike,Business,organizaion
+109,Capitol Hill,Government and administration,organizaion
+110,the Wuhan Institute of Virology,Research and education,organizaion
+111,the Air Force,Government and administration,organizaion
+112,Yale University,Research and education,organizaion
+113,the Rockefeller Foundation,NGOs and charity,organizaion
+114,MasterCard,Business,organizaion
+115,The ID2020 Alliance,Platforms and tech companies,organizaion
+116,The Associated Press,Media and Journalism,organizaion
+117,The Rockefeller Foundation,NGOs and charity,organizaion
+118,PayPal,Business,organizaion
+119,the National Institutes of Health,Government and administration,organizaion
+120,kremlin,Government and administration,organizaion
+121,fbi,Government and administration,organizaion
+122,LinkedIn,Platforms and tech companies,organizaion
+123,World Bank,Business,organizaion
+124,Weather News,Media and Journalism,organizaion
+125,McDonalds,Business,organizaion
+126,the House of Representatives,Government and administration,organizaion
+127,Space Force,Government and administration,organizaion
+128,Walt Disney,Media and Journalism,organizaion
+129,Yahoo,Platforms and tech companies,organizaion
+130,the European Union,Government and administration,organizaion
+131,Polizei,Government and administration,organizaion
+132,Vimeo,Platforms and tech companies,organizaion
+133,Patreon.com,website,organizaion
+134,MK Ultra,Government and administration,organizaion
+135,TikTok,Platforms and tech companies,organizaion
+136,The Gates Foundation,NGOs and charity,organizaion
+137,AfD,Political organization,organizaion
+138,the Wall Street Journal,Media and Journalism,organizaion
+139,Breitbart News,Media and Journalism,organizaion
+140,Netflix,Entertainment,organizaion
+141,Skype,Platforms and tech companies,organizaion
+142,Tylenol,Pharma ,organizaion
+143,Bayer,Pharma ,organizaion
+144,The Daily Mail,Media and Journalism,organizaion
+145,Health Canada,Government and administration,organizaion
+146,eu,Government and administration,organizaion
+147,Clinton Foundation,NGOs and charity,organizaion
+148,Telegram,Platforms and tech companies,organizaion
+149,Whole Foods,Business,organizaion
+150,ActBlue,Platforms and tech companies,organizaion
+151,Harvard University,Research and education,organizaion
+152,Huawei,Platforms and tech companies,organizaion
+153,Children’s Health Defense,NGOs and charity,organizaion
+154,Hamas,Political organization,organizaion
+155,The Federal Reserve,Government and administration,organizaion
+156,Newport News,Media and Journalism,organizaion
+157,the Bill Gates Foundation,NGOs and charity,organizaion
+158,Lady Reading Hospital,Healthcare service,organizaion
+159,Khyber Training Hospital,Healthcare service,organizaion
+160,Centers for Disease Control and Prevention,Government and administration,organizaion
+161,Moderna,Pharma,organizaion
+162,Democratic Party,Political organization,organizaion
+163,Jesuits,Religion,organizaion
+164,Samsung,Platforms and tech companies,organizaion
+165,the Wuhan Institute,Research and education,organizaion
+166,The Johns Hopkins Center for Health Security,NGOs and charity,organizaion
+167,Homeland Security,Government and administration,organizaion
+168,Rageon.com,Business,organizaion
+169,the New York Post,Media and Journalism,organizaion
+170,BBC News,Media and Journalism,organizaion
+171,Federal Reserve,Government and administration,organizaion
+172,the World Health Organisation,Government and administration,organizaion
+173,National Institutes of Health,Government and administration,organizaion
+174,the Chinese Communist Party,Political organization,organizaion
+175,the U.S. Army,Government and administration,organizaion
+176,Patreon,Business,organizaion
+177,National Independent Venues Association,Entertainment,organizaion
+178,the International Criminal Court,Law and law enforcement,organizaion
+179,the Food and Drug Administration,Government and administration,organizaion
+180,eBay,Business,organizaion
+181,the Department of Homeland Security,Government and administration,organizaion
+182,House of Representatives,Government and administration,organizaion
+183,Forbes,Media and Journalism,organizaion
+184,the Federal Communications Commission,Media and Journalism,organizaion
+185,Hezbollah,Political organization,organizaion
+186,Miami Swim Fashion Week,Entertainment,organizaion
+187,the Republican Party,Political organization,organizaion
+188,the National Cancer Institute,Government and administration,organizaion
+189,Time Magazine,Media and Journalism,organizaion
+190,intel,Platforms and tech companies,organizaion
+191,Sony,Platforms and tech companies,organizaion
+192,Alphabet,Platforms and tech companies,organizaion
+193,the Central Intelligence Agency,Government and administration,organizaion
+194,navy,Government and administration,organizaion
+195,Fema,Government and administration,organizaion
+196,The Supreme Court,Law and law enforcement,organizaion
+197,Pepsi,Business,organizaion
+198,Cornell,Research and education,organizaion
+199,the Brooklyn Council of Arts,Research and education,organizaion
+200,Border Protection,Government and administration,organizaion
+201,Johns Hopkins University,Research and education,organizaion
+202,Bill & Melinda Gates Foundation,NGOs and charity,organizaion
+203,The Wuhan Institute of Virology,Research and education,organizaion
+204,the Daily Mail,Media and Journalism,organizaion
+205,the Chinese Academy of Sciences,Research and education,organizaion
+206,Disney World,Entertainment,organizaion
+207,World Economic Forum,NGOs and charity,organizaion
+208,Boston Dynamics,Platforms and tech companies,organizaion
+209,the Financial Times,Media and Journalism,organizaion
+210,apple,Platforms and tech companies,organizaion
+211,Associated Press,Media and Journalism,organizaion
+212,del Banco Credicoop,Finance,organizaion
+213,Al Qaeda,political organization,organizaion
+214,Toyota,Business,organizaion
+215,the Oval Office,Government and administration,organizaion
+216,SiliconValley,Platforms and tech companies,organizaion
+217,Viacom,Media and Journalism,organizaion
+218,Amnesty International,Human rights,organizaion
+219,Breitbart.com,website,organizaion
+220,Pfizer,Pharma,organizaion
+221,Disneyland,Entertainment,organizaion
+222,London Real TV,Media and Journalism,organizaion
+223,YouTube,Platforms and tech companies,organizaion
+224,Anonymous,Activist groups,organizaion
+225,The Post,Media and Journalism,organizaion
+226,Militia,Political organization,organizaion
+227,Economist,Media and Journalism,organizaion
+228,Marine Corps,Government and administration,organizaion
+229,the Roman Catholic Church,Religion,organizaion
+230,the Army Corps of Engineers,Government and administration,organizaion
+231,Telegraph,Media and Journalism,organizaion
+232,Microsoft Corporation,Platforms and tech companies,organizaion
+233,the U.S. Supreme Court,Government and administration,organizaion
+234,Columbia,Research and education,organizaion
+235,the ID2020 Alliance,Government and administration,organizaion
+236,Georgia Institute of Technology,Platforms and tech companies,organizaion
+237,the Federal Government,Government and administration,organizaion
+238,Life News,Media and Journalism,organizaion
+239,Medicaid,Government and administration,organizaion
+240,Europ TV,Media and Journalism,organizaion
+241,U.S. Senate,Government and administration,organizaion
+242,Justice Department,Law and law enforcement,organizaion
+243,Divorce/Custody Court,Law and law enforcement,organizaion
+244,the House Judiciary Committee,Government and administration,organizaion
+245,NewsGuard,Platforms and tech companies,organizaion
+246,the National Weather Service,Media and Journalism,organizaion
+247,Independent,Media and Journalism,organizaion
+248,Time Warner,Media and Journalism,organizaion
+249,Change.org,Activist groups,organizaion
+250,Pirbright Institute,Research and education,organizaion
+251,The National Guard,Government and administration,organizaion
+252,Hollywood Movies,Entertainment,organizaion
+253,National Geographic,Media and Journalism,organizaion
+254,the US Supreme Court,Government and administration,organizaion
+255,the U.S. Government,Government and administration,organizaion
+256,the National Vaccine Injury Compensation Program,Government and administration,organizaion
+257,the Centers for Disease Control,Government and administration,organizaion
+258,Yahoo News,Platforms and tech companies,organizaion
+259,the U.S. Department of Health and Human Services,Government and administration,organizaion
+260,Project Veritas,Activist groups,organizaion
+261,Galaxy,Platforms and tech companies,organizaion
+262,Imperial College,Research and education,organizaion
+263,Oxford University,Research and education,organizaion
+264,Intellectual Ventures Laboratory,Research and education,organizaion
+265,TransDerm Inc,NGOs and charity,organizaion
+266,Vaxxas Pty Ltd,Pharma ,organizaion
+267,Micron Biomedical Inc,Pharma ,organizaion
+268,Columbia University,Research and education,organizaion
+269,Ron Paul Institute,Political organization,organizaion
+270,A Times,Media and Journalism,organizaion
+271,Family Preservation Committee,Government and administration,organizaion
+272,MK-Ultra,Government and administration,organizaion
+273,Democratic Party,Political organization,organizaion
+274,Space Force,Government and administration,organizaion
+275,Q-Munity,Platforms and tech companies,organizaion
+276,fox news,Media and Journalism,organizaion
+277,Press TV,Media and Journalism,organizaion
+278,NY Times,Media and Journalism,organizaion
+279,Tik Tok,Platforms and tech companies,organizaion
+280,mafia,criminal organization,organizaion
+281,Kaiser Permanente,Healthcare service,organizaion
+282,Environmental Protection Agency,government and administration,organizaion
+283,airbus,Business,organizaion
+284,Tisch,Government and administration,organizaion
+285,US Navy,Government and administration,organizaion
+286,Terra,Business,organizaion
+287,Water Quality Association,NGOs and charity,organizaion
+288,Amalek,Religion,organizaion
+289,Joint Chiefs of Staff,Government and administration,organizaion
+290,Federal Emergency Management Agency,Government and administration,organizaion
+291,Global Times,Media and Journalism,organizaion
+292,National Security,Government and administration,organizaion
+293,Longwood,Sports,organizaion
+294,U.S. Customs,Government and administration,organizaion
+295,India Design ID,Business,organizaion
+296,Vanity Fair,Media and Journalism,organizaion
+297,Nickelodeon,Media and Journalism,organizaion
+298,Freedom Keeper,Research and education,organizaion
+299,Life University,Research and education,organizaion
+300,John Hopkins University,Research and education,organizaion
+301,National Institute of Health,Government and administration,organizaion
+302,nba,Sports,organizaion
+303,Delta,Business,organizaion
+304,Reader's Digest,Media and Journalism,organizaion
+305,ParadoxRadio,Media and Journalism,organizaion
+306,Boden,Business,organizaion
+307,Vaccine Alliance,NGOs and charity,organizaion
+308,United Nations,Government and administration,organizaion
+309,cia,Government and administration,organizaion
+310,Nos,Media and Journalism,organizaion
+311,cia,Government and administration,organizaion
+312,U.S. Supreme Court,Government and administration,organizaion
+313,US National Institutes of Health,Government and administration,organizaion
+314,Border Patrol,Law and law enforcement,organizaion
+315,google,Platforms and tech companies,organizaion
+316,American Medical Association,Research and education,organizaion
+317,American Academy of Pediatrics,Government and administration,organizaion
+318,United States Government,Government and administration,organizaion
+319,American Express,Finance,organizaion
+320,European Commission,Government and administration,organizaion
+321,Epoch Times,Media and Journalism,organizaion
+322,Ministry of Health,Government and administration,organizaion
+323,German Patent Office,Government and administration,organizaion
+324,Al Jazeera,Media and Journalism,organizaion
+325,ProPublica,Media and Journalism,organizaion
+326,Univision,Media and Journalism,organizaion
+327,fbi,Government and administration,organizaion
+328,Miami Herald,Media and Journalism,organizaion
+329,ApiJect Systems America,Healthcare service,organizaion
+330,Clinton Foundation,NGOs and charity,organizaion
+331,bbc,Media and Journalism,organizaion
+332,Council on Foreign Relations,Government and administration,organizaion
+333,Center for Health Security,Research and education,organizaion
+334,Housing and Finance Authority,Finance,organizaion
+335,Ministry of Justice,Government and administration,organizaion
+336,Consulta Financiación,Finance,organizaion
+337,who,Government and administration,organizaion
+338,youtube,Platforms and tech companies,organizaion
+339,California Department of Public Health,Government and administration,organizaion
+340,Shell,Oil and gas,organizaion
+341,La Repubblica,Media and Journalism,organizaion
+342,Facebook,Platforms and tech companies,organizaion
+343,National Wildlife Federation,NGOs and charity,organizaion
+344,fox news,Media and journalism,organizaion
+345,Exxon,Oil and gas,organizaion
+346,Pacific Justice Institute,NGOs and charity,organizaion
+347,Hertz,Business,organizaion
+348,LA Times,Media and journalism,organizaion
+349,Xinhua,Media and journalism,organizaion
+350,Motorola,Platforms and tech companies,organizaion
+351,U.S. Food and Drug Administration,Government and administration,organizaion
+352,Department of Public Health,Government and administration,organizaion
+353,Federal Trade Commission,Government and administration,organizaion
+354,who,Government and administration,organizaion
+355,University of Maryland,Research and education,organizaion
+356,House Intelligence Committee,Government and administration,organizaion
+357,European Union,Government and administration,organizaion
+358,Health And Human Rights Summit,Research and education,organizaion
+359,US Department of Defense,Government and administration,organizaion
+360,New Yorker Hotel,Hospitality,organizaion
+361,Frank E. Campbell Funeral Home,Business,organizaion
+362,Le Monde,Media and journalism,organizaion
+363,"United Nations Educational, Scientific and Cultural Organization",Research and education,organizaion
+364,North Atlantic Treaty Organization,Government and administration,organizaion
+365,The Independent,Media and journalism,organizaion
+366,American Government,Government and administration,organizaion
+367,US Treasury,Government and administration,organizaion
+368,U.S. Marshals Service Missing Child Unit,Law and law enforcement,organizaion
+369,US Army,Government and administration,organizaion
+370,US Army,Government and administration,organizaion
+371,Department of Energy,Government and administration,organizaion
+372,Wall Street Journal,Media and journalism,organizaion
+373,Johns Hopkins Center for Health Security,Research and education,organizaion
+374,US State Department,Government and administration,organizaion
+375,International Monetary Fund,Finance,organizaion
+376,Armed Forces Health Surveillance Branch,Government and administration,organizaion
+377,MedicalXpress,Media and journalism,organizaion
+378,Southern Air Transport,business,organizaion
+379,National Weather Service,Media and journalism,organizaion
+380,Global Alliance for Vaccines,Healthcare service,organizaion
+381,Office of Emergency Planning,Government and administration,organizaion
+382,Department of Environmental Health and Engineering,Research and Education,organizaion
+383,Trilateral Commission,Research and education,organizaion
+384,China Daily,Media and Journalism,organizaion
+385,WhatsApp,Platforms and tech companies,organizaion
+386,Hitachi,Platforms and tech companies,organizaion
+387,Environmental Health Trust,NGOs and charity ,organizaion
+388,United Nations Environment Program,government and administration,organizaion
+389,The Trump Administration,Government and administration,organizaion
+390,US Department of Justice,Government and administration,organizaion
+391,Sky News Australia,Media and Journalism,organizaion
+392,Council on Foreign Relations,Government and administration,organizaion
+393,Washington Times,Media and Journalism,organizaion
+394,MIT Technology Review,Media and Journalism,organizaion
+395,Washington Examiner,Media and journalism,organizaion
+396,Nato,Government and administration,organizaion
+397,Italian Chamber of Deputies,Government and administration,organizaion
+398,Forza Italia party,Political organization,organizaion
+399,Wuhan Customs,Government and administration,organizaion
+400,Wuhan Tianhe International Airport,Business,organizaion
+401,Wuhan Tianhe International Airport Customs,Business,organizaion
+402,Nikon,Business,organizaion
+403,Buzzfeed,Media and Journalism,organizaion
+404,Kunshan City Governance,Government and administration,organizaion
+405,TV company,Government and administration,organizaion
+0,Emiliano Zapata,Politics,person
+1,King Spiros,Religion,person
+2,"Thomas Jefferson
+",Politics,person
+3,Aaron Russo,Entertainment,person
+4,Abraham Lincoln,Politics,person
+5,Adam Schiff,Politics,person
+6,Adolf Hitler,Politics,person
+7,Al Gore,Politics,person
+8,Alan Dershowitz,Law and law enforcement,person
+9,Albert Einstein,Science,person
+10,Albert Pike,Literature,person
+11,Aleister Crowley,Religion,person
+12,Alex Azar,Politics,person
+13,Alex Jones,Conspiracy Theory,person
+14,Alexander McQueen,Arts and culture,person
+15,Anderson Cooper,Media and journalism,person
+16,Andrew Breitbart,Media and journalism,person
+17,Andrew Cuomo,Politics,person
+18,Andrew Kaufman,Literature,person
+19,Andrew Kevin Newton,Law and law enforcement,person
+20,Andrew Wakefield,Science,person
+21,Angela Merkel,Politics,person
+22,Anne M. Johnson,Science,person
+23,Annunaki,Religion,person
+24,Anthony Bourdain,Arts and culture,person
+25,Anthony Fauci,Science,person
+26,Anthony Weiner,Politics,person
+27,Archons,Religion,person
+28,Ariana Grande,Entertainment,person
+29,Artin Massihi,Science,person
+30,Attila Hildmann,Conspiracy Theory,person
+31,Avicii,Entertainment,person
+32,Barack Obama,Politics,person
+33,Barry Soetoro,Politics,person
+34,Batman,Entertainment,person
+35,Ben Shapiro,Media and journalism,person
+36,Benjamin Franklin,Politics,person
+37,Benjamin Netanyahu,Politics,person
+38,Bernie,Politics,person
+39,Beyonce,Entertainment,person
+40,Beyoncé,Entertainment ,person
+41,Bezos,Business,person
+42,Biden,Politics,person
+43,Bill Barr,Law and law enforcement,person
+44,Bill Clinton,Politics,person
+45,Bill Cooper,Conspiracy Theory,person
+46,Bill de Blasio,Politics,person
+47,Bill Gates,Business,person
+48,Bill Maher,Entertainment,person
+49,Bill Nye,Science,person
+50,Billie Eilish,Entertainment,person
+51,Birx,Science,person
+52,Bob Marley,Entertainment,person
+53,Bobby L. Rush,Politics,person
+54,Bodo Schiffmann,Science,person
+55,Bolsonaro,Politics,person
+56,Boris Johnson,Politics,person
+57,Boris Johnson,Politics,person
+58,Breonna Taylor,Law and law enforcement,person
+59,Brian Rose,Media and journalism,person
+60,Buddha,Religion,person
+61,Bush,Politics,person
+62,Buttar,Conspiracy Theory,person
+63,Candace Owens,Literature,person
+64,Carrie Madej,Science,person
+65,Castro,Politics,person
+66,Charles J Wolfe,Literature,person
+67,cheney,Politics,person
+68,Chester Bennington,Entertainment,person
+69,Chris Brown,Entertainment,person
+70,Chris Cornell,Entertainment ,person
+71,Chris Oblivion,Entertainment,person
+72,Chrissy Teigen,Entertainment,person
+73,Christopher Columbus,History,person
+74,Chuck Schumer,Politics,person
+75,Clinton,Politics,person
+76,Clive Barker,Literature,person
+77,Corbyn,Politics,person
+78,Corey Feldman,Entertainment,person
+79,Corey Goode,Entertainment,person
+80,Creepy Joe,,person
+81,Cruz,Politics,person
+82,Cuomo,Politics,person
+83,Dan Andrews,Politics,person
+84,Dan Erickson,Science,person
+85,"Dana Ashlie
+",Entertainment ,person
+86,Daniel Andrews,Politics,person
+87,Dave Chappelle,Entertainment,person
+88,David Crowley,Politics,person
+89,David Dees,Entertainment ,person
+90,David Icke,Conspiracy Theory,person
+91,David K. Miller,Literature,person
+92,David Keith,Entertainment,person
+93,David Rockefeller,Business,person
+94,David Wilcock,Literature,person
+95,Deborah Birx,Science,person
+96,Deborah Tavares,Conspiracy Theory,person
+97,Demi Moore,Entertainment,person
+98,Derek Chauvin,Law and law enforcement,person
+99,DeSantis,Politics,person
+100,Devil,Religion,person
+101,Devra Davis,Science,person
+102,Donald J. Trump,Politics,person
+103,Drake,Entertainment,person
+104,Edward Snowden,Activism,person
+105,Einstein,Science,person
+106,Eisenhower,Politics,person
+107,Elizabeth Warren,Politics,person
+108,Elon,Business,person
+109,Elon Musk,Business,person
+110,Eminem,Entertainment,person
+111,Emma STONE,Entertainment,person
+112,Epstein,Business,person
+113,Eric Garcetti,Politics,person
+114,Erickson,Science,person
+115,Eve,Religion,person
+116,Fauci,Science,person
+117,Fiona Barnett,Science,person
+118,Flynn,Politics,person
+119,Frank Ruscetti,Science,person
+120,Frankenstein,Entertainment,person
+121,Gaddafi,Politics,person
+122,Gaia,unsure,person
+123,Gandhi,Politics,person
+124,Gavin Newsom,,person
+125,Gen Flynn,Politics,person
+126,GeneralFlynn,,person
+127,George Bush,Politics,person
+128,George Carlin,Entertainment,person
+129,George Floyd,Law and law enforcement,person
+130,George Orwell,Literature,person
+131,George Soros,Business,person
+132,George W. Bush,Politics,person
+133,George Washington,Politics,person
+134,GeorgeOrwell,Literature,person
+135,Ghislaine Maxwell,Business,person
+136,Giuseppe Conte,Politics,person
+137,Glenn Beck,Conspiracy Theory,person
+138,God,Religion,person
+139,Greg Reese,Entertainment,person
+140,Greta,unsure,person
+141,Greta Thunberg,Activism,person
+142,Gretchen Whitmer,Politics,person
+143,Hailey Baldwin,Entertainment,person
+144,Harry Potter,Entertainment,person
+145,Harry Vox,Conspiracy Theory,person
+146,Harvey Weinstein,Entertainment,person
+147,Henry Kissinger,Politics,person
+148,Hildmann,Literature,person
+149,Hillary Clinton,Politics,person
+150,Hitler,Politics,person
+151,Horus,Religion,person
+152,Ilhan Omar,Politics,person
+153,Isaac Kappy,Entertainment ,person
+154,Jack Dorsey,Business,person
+155,Jacob Blake,Law and law enforcement,person
+156,Jacob Rothschild,Business,person
+157,James Alefantis,Arts and culture ,person
+158,James Bond,Entertainment,person
+159,James Comey,Politics,person
+160,James Corbett,Literature,person
+161,James Freeman,Media and journalism,person
+162,James Munder,,person
+163,Janet Osatenbaad,unsure,person
+164,Jared Kushner,Politics,person
+165,Jay Inslee,Politics,person
+166,Jay Z,Entertainment,person
+167,Jay-Z,Entertainment ,person
+168,Jeff Bezos,Business,person
+169,Jeff Sessions,Politics,person
+170,Jeffrey Epstein,Business,person
+171,Jehovah,Religion,person
+172,Jennifer Mac,Literature,person
+173,Jens Spahn,Politics,person
+174,Jerome Adams,Science,person
+175,Jesus,Religion,person
+176,Jesus Christ Yahusha,Religion,person
+177,Jezebel,Religion,person
+178,JFK Jr,Politics,person
+179,Jim Carrey,Entertainment,person
+180,Jimmy Kimmel,Entertainment,person
+181,Joan Rivers,Entertainment ,person
+182,Joe Biden,Politics,person
+183,Joe Rogan,Media and journalism,person
+184,John Brennan,Law and law enforcement,person
+185,John Durham,Law and law enforcement,person
+186,John F. Kennedy,Politics,person
+187,John Ioannidis,Science,person
+188,John Kerry,Politics,person
+189,John Legend,Entertainment,person
+190,John Lennon,Entertainment,person
+191,John Magufuli,Politics,person
+192,John McCain,Politics,person
+193,John Podesta,Politics,person
+194,John Roberts,Politics,person
+195,John the Baptist,Religion,person
+196,Jordan Maxwell,Literature,person
+197,Joyce Sanchez,,person
+198,Juan Sebastián,Sports ,person
+199,Judas,Religion,person
+200,Judy Mikovits,Conspiracy Theory,person
+201,Julian Assange,Activism,person
+202,Justin Bieber,Entertainment,person
+203,Justin Trudeau,Politics,person
+204,Kamala Harris,Politics,person
+205,Kary Mullis,Science,person
+206,Katt Williams,Entertainment,person
+207,Katy Perry,Entertainment,person
+208,Keanu Reeves,Entertainment,person
+209,Kennedy Jr.,Law and law enforcement,person
+210,Kevin Spacey,Entertainment,person
+211,Kim Kardashian,Entertainment,person
+212,King Spiros,Religion,person
+213,King John lll,Politics,person
+214,Kissinger,Politics,person
+215,Kobe Bryant,Sports,person
+216,Lady Gaga,Entertainment,person
+217,Laura Ingraham,Entertainment,person
+218,Lil Wayne,Entertainment,person
+219,Lindsey Graham,Politics,person
+220,Louis Pasteur,Science,person
+221,Lucifer,Religion,person
+222,Mac Miller,Entertainment,person
+223,Madonna,Entertainment,person
+224,Malcolm,Politics,person
+225,Malcolm X,Activism,person
+226,Margaret Sanger,Activism,person
+227,Marilyn Monroe,Entertainment,person
+228,Marina Abramovic,Arts and culture,person
+229,Marina Abramović,Arts and culture,person
+230,Marina Abromovic ,Arts and culture,person
+231,Mark of the Beast,Religion,person
+232,Mark Passio,Activism,person
+233,Mark Zuckerberg,Business,person
+234,Marshall,unsure,person
+235,Martin Luther King,Politics,person
+236,Martin Luther King Jr.,Activism,person
+237,Mary Magdalene,Religion,person
+238,Matt Groening,Entertainment,person
+239,Matt Hancock,Politics,person
+240,McCain,Politics,person
+241,Mel Gibson,Entertainment,person
+242,Melinda Gates,Business ,person
+243,Mercola,Science,person
+244,Merkel,Politics,person
+245,Michael,unsure,person
+246,Michael Bloomberg,Politics,person
+247,Michael Flynn,Politics,person
+248,Michael Jackson,Entertainment,person
+249,Michael Jordan,Sports,person
+250,Michael Obama,Politics,person
+251,Michael Ryan,Science,person
+252,Michelle Obama,Politics,person
+253,Mike Adams,Sports,person
+254,Mike Flynn,Politics,person
+255,Mike Morales,Entertainment,person
+256,Mike Pence,Politics,person
+257,Mike Pompeo,Politics,person
+258,Mike Tyson,Sports,person
+259,Mikovits,Science,person
+260,Mitch McConnell,Politics,person
+261,Mohammad Asim,Science,person
+262,Moses,Religion,person
+263,Mueller,Politics,person
+264,Nancy,Politics,person
+265,Nancy Pelosi,Politics,person
+266,Nephilim,Religion,person
+267,Netanyahu,Politics,person
+268,Nick Rockefeller,Business,person
+269,Nixon,Politics,person
+270,Obama,Politics,person
+271,Oprah,Entertainment,person
+272,oprah,Entertainment,person
+273,Oprah Winfrey,Entertainment,person
+274,Orwell,Literature,person
+275,Osama Bin Laden,Law and law enforcement,person
+276,Osama bin Laden,Law and law enforcement,person
+277,Park Geun-hye,Politics,person
+278,Paul,unsure,person
+279,Paul Offit,Science,person
+280,Pence,Politics,person
+281,Peter Strzok,Law and law enforcement,person
+282,Phil Murphy,Politics,person
+283,Phil Schneider,Science,person
+284,Plato,Literature,person
+285,Pope,Religion,person
+286,Pope Francis,Religion,person
+287,Prince Andrew,Royalty,person
+288,Putin,Politics,person
+289,putin,Politics,person
+290,Queen Elizabeth,Royalty,person
+291,Rand Paul,Politics,person
+292,Rashid A. Butter,Conspiracy Theory,person
+293,Rashid Buttar,Conspiracy Theory,person
+294,Reagan,Politics,person
+295,Richard Pan,Politics,person
+296,Rick,unsure,person
+297,Ricky Gervais,Entertainment,person
+298,Robert David Steele,Science,person
+299,Robert F. Kennedy,Politics,person
+300,Robert F. Kennedy Jr.,Politics,person
+301,Robert Farah,Sports,person
+302,Robert Gallo,Science,person
+303,Robert Maxwell,Media and journalism,person
+304,Robert Mueller,Law and law enforcement,person
+305,Robert Redfield,Science,person
+306,Robin Williams,Entertainment,person
+307,Rockefeller,Business,person
+308,Roger Stone,Politics,person
+309,Ron Paul,,person
+310,Ronald Reagan,Politics,person
+311,Rothchild,Business,person
+312,Rothchilds,Business,person
+313,Rothschild,Business,person
+314,rothschild,Business,person
+315,Rothschilds,Business,person
+316,rothschilds,Business,person
+317,Rudolf Steiner,Literature,person
+318,Rudy Giuliani,Politics,person
+319,Sacha Stone,Entertainment,person
+320,Sara Cunial,Politics,person
+321,Sarah Ruth Ashcraft,Entertainment,person
+322,Satan,Religion,person
+323,Schumer,Politics,person
+324,Scott Atlas,Science,person
+325,Scott Jensen,Politics,person
+326,Scott Morrison,Politics,person
+327,Seth Rich,Law and law enforcement,person
+328,Sherri Tenpenny,Activism,person
+329,Shiva Ayyadurai,Conspiracy Theory,person
+330,Sidney Powell,Law and law enforcement,person
+331,Simone Gold,Science,person
+332,Simpsons,,person
+333,Sleepy Joe,,person
+334,Snowden,Activism,person
+335,Solomon,Religion,person
+336,Soros,Business,person
+337,Spiro Skouras,Entertainment,person
+338,Stalin,Politics,person
+339,Stanley Plotkin,Science,person
+340,Stefan Lanka,Science,person
+341,Stella Immanuel,Science,person
+342,Steve Jobs,Business,person
+343,Susan Rice,Politics,person
+344,Suzanne Humphries,science,person
+345,Taylor Swift,Entertainment,person
+346,Ted Cruz,Politics,person
+347,Ted Gunderson,Literature,person
+348,Then Jonathan,Religion,person
+349,Thomas Cowan,Literature,person
+350,Thomas Jefferson,Politics,person
+351,Timothy,unsure,person
+352,Tom Barnett,Politics,person
+353,Tom Hanks,Entertainment,person
+354,Tony Podesta,Politics,person
+355,Trudeau,Politics,person
+356,Trump,Politics,person
+357,Tucker Carlson,Media and journalism,person
+358,Vernon Coleman,Entertainment,person
+359,Vicente López,,person
+360,Vittorio Sgarbi,Politics,person
+361,Vladimir Putin,Politics,person
+362,Warren Buffett,Business,person
+363,Will Smith,Entertainment ,person
+364,William Barr,Law and law enforcement,person
+365,William Cooper,Entertainment,person
+366,William S. Smith,Politics,person
+367,William Thompson,Literature,person
+368,Yahawah,unsure,person
+369,Yahawashi,Religion,person
+370,Yahweh,Religion,person
+371,yelawolf,Entertainment ,person
+372,Yeshua,Religion,person
+373,Yuri Bezmenov,Media and journalism,person
+374,Zechariah,Religion,person
+375,Zuckerberg,Business,person

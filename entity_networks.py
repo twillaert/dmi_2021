@@ -33,7 +33,7 @@ def get_NER_network(snapshot, entity_list, full_df):
     G = nx.MultiGraph()
     G.add_nodes_from(entity_list)
 
-    filename = str(quarterly_df['quarter'].iloc[0])
+    filename = str(snapshot['quarter'].iloc[0])
     print('getting network for: ' + filename)
 
     weight = 1.0 #default weight = 1

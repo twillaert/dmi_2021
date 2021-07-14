@@ -11,6 +11,13 @@ from itertools import combinations
 
 #define helper functions
 
+def clean_df(df):
+    # Make lowercase and remove trailing whitespace
+    df['Entities'] = df['Entities'].str.lower().str.strip()
+    # Remove newlines
+    df['Entities'] = df['Entities'].replace(r'\\n', ' ', regex=True)
+    return df
+
 def clean_instagram_post(text):
     text = re.sub(r"@(\w+)", '', text) #remove @-handles
     text = re.sub(r"#(\w+)", '', text) #remove hashtags
@@ -87,7 +94,7 @@ entity_df1['type'] = 'organizaion'
 entity_df.rename({'Person': 'Entities'}, axis=1, inplace=True)
 entity_df['type'] = 'person'
 combined_df = pd.concat([entity_df1, entity_df])
-combined_df['Entities'] = combined_df['Entities'].str.lower()
+combined_df = clean_df(combined_df)
 
 #look only at data for 2020, identify quarters
 posts_df = posts_df[posts_df['timestamp'].dt.year == 2020]

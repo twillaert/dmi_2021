@@ -27,8 +27,11 @@ def clean_instagram_post(text):
 
 def find_entities(text, list_of_entities):
     #convert list of entities to single regex query
-    query = '(?:% s)' % '|'.join(list_of_entities)
-    return re.findall(query, text)
+    # query = '(\b%s\b)' % '|'.join(list_of_entities)
+    query_list = []
+    for entity in list_of_entities:
+        query_list.append(rf"\b{entity}\b")
+    return re.findall('|'.join(query_list), text)
 
 def get_NER_network(snapshot, entity_list, full_df):
 

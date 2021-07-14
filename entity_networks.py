@@ -57,7 +57,7 @@ def get_NER_network(snapshot, entity_list, full_df):
         except KeyError:
             print(f"No node named {row[1]['Entities']} found, skipping...")
         
-    nx.write_gexf(G, filename + '_PERSONS_weighted.gexf')
+    nx.write_gexf(G, filename + '_PERSONS_ORGANIZATIONS_weighted.gexf')
 
 #read the sql database, store as dataframe
 con = sqlite3.connect('Fabio_insta.sqlite')
@@ -95,4 +95,4 @@ posts_df['quarter'] = pd.PeriodIndex(posts_df.timestamp, freq='Q')
 
 #group the data by quarter, get network per quarter
 for name, group in posts_df.groupby('quarter'):
-    get_NER_network(group, entity_list, combined_df)
+    get_NER_network(group, entity_list_all, combined_df)

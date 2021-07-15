@@ -88,7 +88,12 @@ entity_list = entity_df["Person"]
 entity_list = [entity.lower().strip() for entity in entity_list]
 entity_list = list(dict.fromkeys(entity_list)) 
 
-entity_list_all = list(dict.fromkeys(entity_list + entity_list1))
+entity_conspiracies_df = pd.read_csv("Instagram_NER - CONSPIRACIES_NAMES.csv")[['Conspiracy', 'Categories']]
+entity_list_conspiracies = entity_conspiracies_df["Conspiracy"]
+entity_list_conspiracies = [entity.lower().strip() for entity in entity_list_conspiracies]
+entity_list_conspiracies = list(dict.fromkeys(entity_list_conspiracies)) 
+
+entity_list_all = list(dict.fromkeys(entity_list + entity_list1 + entity_list_conspiracies))
 
 # Build combined dataframe: Rename 'Organization' and 'Person' columns to 'Entities', add new column 'type' to
 # retain the information, then combine dataframes
@@ -96,7 +101,9 @@ entity_df1.rename({'Organization': 'Entities'}, axis=1, inplace=True)
 entity_df1['type'] = 'organizaion'
 entity_df.rename({'Person': 'Entities'}, axis=1, inplace=True)
 entity_df['type'] = 'person'
-combined_df = pd.concat([entity_df1, entity_df])
+entity_conspiracies_df.rename({'Conspiracy': 'Entities'}, axis=1, inplace=True)
+entity_conspiracies_df['type'] = 'conspiracy'
+combined_df = pd.concat([entity_df1, entity_df, entity_conspiracies_df])
 combined_df = clean_df(combined_df)
 
 #look only at data for 2020, identify quarters
